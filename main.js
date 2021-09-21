@@ -22,7 +22,15 @@ function modelLoaded()
 {
 console.log ('poseNet is initialized');
 }
+
 function gotPoses(results)
+
 function draw(){
-    
+    image(video,0,0,600,500)
+   
+}
+
+function play()
+{
+song.play();
 }
